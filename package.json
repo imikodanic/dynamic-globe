@@ -10,9 +10,13 @@
     "prepare": "panda codegen"
   },
   "dependencies": {
+    "@react-three/drei": "^9.111.5",
+    "@react-three/fiber": "^8.17.6",
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "three": "^0.168.0",
+    "three-globe": "^2.31.1"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "14.2.4",
@@ -20,6 +24,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/three": "^0.168.0",
     "@typescript-eslint/eslint-plugin": "^7.16.0",
     "@typescript-eslint/parser": "^7.16.0",
     "eslint": "^8",
